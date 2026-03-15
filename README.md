@@ -1,8 +1,8 @@
 # :musical_note: spotify-popularity-analysis
 
-Exploratory data analysis of Spotify tracks to understand how audio features relate to song popularity.
+Exploratory Data Analysis and Machine Learning on Spotify tracks to understand how audio features influence song popularity.
 
-This project explores how Spotify audio features relate to track popularity.
+This project analyzes Spotify audio features and applies machine learning techniques to explore patterns and predict track popularity.
 
 ## :pushpin: Objectives
 - Analyze relationships between audio features and popularity
