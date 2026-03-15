@@ -195,7 +195,7 @@ Mainstream hits tend to rely more on produced, electronic, or studio-enhanced so
 -
 # 🎤 Speechiness: High vs Low Popularity Tracks
 
-What this chart shows
+![Speechiness](images/{105B8A1A-0BB3-4B3E-AAEA-4A46C5A09440}.png)
 
 This plot compares speech-like audio elements between popular and less popular songs.
 
