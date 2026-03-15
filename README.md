@@ -12,7 +12,7 @@ This project explores how Spotify audio features relate to track popularity.
 ## :chart_with_upwards_trend: Dataset
 Spotify track dataset (~80k tracks after cleaning)
 
-## Visualization and Interpretation
+## :bar_chart: Visualization and Interpretation
 # Average Popularity Across Audio Feature Levels
 
 ![Average Popularity Across Audio Feature Levels](images/{3B01A2D7-C3BA-4CD4-A02E-897212C08850}.png)
