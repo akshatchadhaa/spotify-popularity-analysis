@@ -16,7 +16,7 @@ Spotify track dataset (~80k tracks after cleaning)
 
 Distribution of Spotify Track Popularity
 
-images/{7900E9A0-F1D7-4A3D-B9C1-751FC5A4A09B}.png
+![Distribution of Spotify Track Popularity](images/{7900E9A0-F1D7-4A3D-B9C1-751FC5A4A09B}.png)
 
 This histogram visualizes the overall distribution of popularity scores across all tracks in the dataset.
 
