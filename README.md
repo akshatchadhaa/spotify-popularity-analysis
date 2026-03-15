@@ -264,23 +264,23 @@ However, the confusion matrix shows the model predicts non-hit songs much better
 
 Most influential features in predicting hit songs:
 
-Instrumentalness
+- Instrumentalness
 
-Acousticness
+- Acousticness
 
-Energy
+- Energy
 
-Loudness
+- Loudness
 
-Duration
+- Duration
 
-Danceability
+- Danceability
 
-Valence
+- Valence
 
-Speechiness
+- Speechiness
 
-Tempo
+- Tempo
 
 Interpretation
 
