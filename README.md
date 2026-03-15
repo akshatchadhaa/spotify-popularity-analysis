@@ -208,6 +208,91 @@ Interpretation
 Key insight:
 Speech-heavy tracks (talking or spoken-word style) are not typical among popular songs.
 -
+# Feature Correlation Matrix
+
+What this chart shows
+
+This heatmap displays correlations between audio features and popularity.
+
+Key relationships
+
+Energy and Loudness show strong positive correlation.
+
+Acousticness is negatively correlated with Energy and Loudness.
+
+Danceability moderately correlates with Valence.
+
+Important finding
+
+Popularity shows very weak direct correlations with most features.
+
+Key insight:
+No single audio feature strongly predicts popularity — hit songs likely emerge from a combination of characteristics rather than one dominant factor.
+-
+# Popularity Across Energy × Danceability
+
+What this chart shows
+
+This heatmap visualizes how combinations of energy and danceability levels influence track popularity.
+
+Interpretation
+
+Highest popularity appears in moderately high energy and danceability combinations.
+
+Extremely low energy tracks tend to perform poorly.
+
+Balanced combinations produce the best results.
+
+Key insight:
+Successful songs often balance danceability and energy rather than maximizing one feature alone.
+-
+
+## Machine Learning Model
+# Hit Song Prediction Model
+
+A classification model was built to predict whether a track is a hit or not based on audio features.
+
+Model Performance
+
+Accuracy: ~95%
+
+ROC-AUC Score: ~0.69
+
+However, the confusion matrix shows the model predicts non-hit songs much better than hit songs, indicating class imbalance.
+
+# Feature Importance for Predicting Hits
+
+Most influential features in predicting hit songs:
+
+Instrumentalness
+
+Acousticness
+
+Energy
+
+Loudness
+
+Duration
+
+Danceability
+
+Valence
+
+Speechiness
+
+Tempo
+
+Interpretation
+
+Songs with lower instrumentalness tend to be more popular.
+
+Energy and loudness significantly contribute to hit probability.
+
+Danceability also plays a meaningful role.
+
+Key insight:
+Hit songs often combine produced sound, strong energy, and rhythmic danceability.
+-
 ## Analysis Performed
 - Data cleaning
 - Feature distribution analysis
