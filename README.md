@@ -310,8 +310,8 @@ Hit songs often combine produced sound, strong energy, and rhythmic danceability
 - External factors (marketing, playlist placement, timing) likely play a major role in popularity.
 
 ## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-- SciKitLearn
+- Python ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+- Pandas ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+- Matplotlib ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+- Jupyter Notebook ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+- SciKitLearn ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
