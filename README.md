@@ -103,7 +103,7 @@ Key differences observed:
 Key insight:
 Hit songs tend to be loud, energetic, and danceable, aligning with mainstream listening preferences.
 -
-4. Top 10 Genres by Average Popularity
+# Top 10 Genres by Average Popularity
 
 What this chart shows
 
@@ -142,8 +142,8 @@ Traditional or acoustic-heavy genres appear less frequently among the most popul
 Key insight:
 Modern streaming audiences strongly favor danceable and high-energy genres.
 -
-Feature Distribution Comparisons
-5. Danceability: High vs Low Popularity Tracks
+
+# Danceability: High vs Low Popularity Tracks
 
 What this chart shows
 
@@ -162,7 +162,8 @@ However, the distributions overlap significantly.
 Key insight:
 Danceability contributes to popularity but is not a decisive factor alone.
 -
-6. Energy: High vs Low Popularity Tracks
+
+# Energy: High vs Low Popularity Tracks
 
 What this chart shows
 
@@ -177,7 +178,7 @@ Interpretation
 Key insight:
 Listeners appear to prefer energetic tracks, but extreme energy levels are not necessary for success.
 -
-7. Acousticness: High vs Low Popularity Tracks
+# Acousticness: High vs Low Popularity Tracks
 
 What this chart shows
 
@@ -192,7 +193,7 @@ Interpretation
 Key insight:
 Mainstream hits tend to rely more on produced, electronic, or studio-enhanced sounds rather than purely acoustic compositions.
 -
-8. Speechiness: High vs Low Popularity Tracks
+# Speechiness: High vs Low Popularity Tracks
 
 What this chart shows
 
@@ -203,9 +204,10 @@ Interpretation
 - Both groups show very low median speechiness values.
 
 - Songs with extremely high speechiness are rare.
--
+
 Key insight:
 Speech-heavy tracks (talking or spoken-word style) are not typical among popular songs.
+-
 ## Analysis Performed
 - Data cleaning
 - Feature distribution analysis
