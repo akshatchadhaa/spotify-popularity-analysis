@@ -15,10 +15,8 @@ Spotify track dataset (~80k tracks after cleaning)
 ## Visualization and Interpretation
 # Average Popularity Across Audio Feature Levels
 
-![Energy](images/{F03AD225-ECE9-48D8-88AB-1B29E72A75E2}.png)
-![Acousticness](images/{89FD089E-FA45-4C33-986F-48139AEC231C}.png)
-![Speechiness](images/{105B8A1A-0BB3-4B3E-AAEA-4A46C5A09440}.png)
-![Danceability](images/{10091C30-34F2-4538-8D29-7040E294E73D}.png)
+![Average Popularity Across Audio Feature Levels](images/{3B01A2D7-C3BA-4CD4-A02E-897212C08850}.png)
+
 
 This visualization explores how track popularity changes as the intensity of different audio features increases.
 
