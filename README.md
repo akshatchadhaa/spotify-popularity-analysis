@@ -103,6 +103,109 @@ Key differences observed:
 Key insight:
 Hit songs tend to be loud, energetic, and danceable, aligning with mainstream listening preferences.
 -
+4. Top 10 Genres by Average Popularity
+
+What this chart shows
+
+This bar chart ranks genres based on their average popularity score.
+
+Top performing genres include:
+
+- K-Pop
+
+- Pop Film
+
+- Metal
+
+- Latin
+
+- Soul
+
+- EDM
+
+- Electro
+
+- Pop
+
+- Chill
+
+- House
+
+- Interpretation
+
+K-Pop leads the popularity rankings, reflecting its strong global fanbase.
+
+Electronic and dance-focused genres dominate the top rankings.
+
+Traditional or acoustic-heavy genres appear less frequently among the most popular.
+
+Key insight:
+Modern streaming audiences strongly favor danceable and high-energy genres.
+-
+Feature Distribution Comparisons
+5. Danceability: High vs Low Popularity Tracks
+
+What this chart shows
+
+This box plot compares the danceability scores of:
+
+Highly popular songs
+
+Less popular songs
+
+Interpretation
+
+- High popularity songs tend to have slightly higher median danceability.
+
+However, the distributions overlap significantly.
+
+Key insight:
+Danceability contributes to popularity but is not a decisive factor alone.
+-
+6. Energy: High vs Low Popularity Tracks
+
+What this chart shows
+
+This plot compares energy levels between high-popularity and low-popularity tracks.
+
+Interpretation
+
+- Popular songs generally have moderately high energy levels.
+
+- Extremely low-energy songs are less common among hits.
+
+Key insight:
+Listeners appear to prefer energetic tracks, but extreme energy levels are not necessary for success.
+-
+7. Acousticness: High vs Low Popularity Tracks
+
+What this chart shows
+
+This box plot compares acousticness scores between high-popularity and low-popularity tracks.
+
+Interpretation
+
+- Low popularity tracks tend to show higher acousticness.
+
+- Highly popular songs generally have lower acousticness values.
+
+Key insight:
+Mainstream hits tend to rely more on produced, electronic, or studio-enhanced sounds rather than purely acoustic compositions.
+-
+8. Speechiness: High vs Low Popularity Tracks
+
+What this chart shows
+
+This plot compares speech-like audio elements between popular and less popular songs.
+
+Interpretation
+
+- Both groups show very low median speechiness values.
+
+- Songs with extremely high speechiness are rare.
+-
+Key insight:
+Speech-heavy tracks (talking or spoken-word style) are not typical among popular songs.
 ## Analysis Performed
 - Data cleaning
 - Feature distribution analysis
