@@ -4,7 +4,7 @@ Exploratory data analysis of Spotify tracks to understand how audio features rel
 
 This project explores how Spotify audio features relate to track popularity.
 
-## Objectives
+## :pushpin: Objectives
 - Analyze relationships between audio features and popularity
 - Identify nonlinear patterns in feature behavior
 - Compare top performing tracks vs low performing tracks
