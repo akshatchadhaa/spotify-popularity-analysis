@@ -13,7 +13,7 @@ This project explores how Spotify audio features relate to track popularity.
 Spotify track dataset (~80k tracks after cleaning)
 
 ## Visualization and Interpretation
-Average Popularity Across Audio Feature Levels
+# Average Popularity Across Audio Feature Levels
 
 ![Energy](images/{F03AD225-ECE9-48D8-88AB-1B29E72A75E2}.png)
 ![Acousticness](images/{89FD089E-FA45-4C33-986F-48139AEC231C}.png)
@@ -45,7 +45,7 @@ Interpretation
 Key insight:
 Moderate levels of energy and emotional balance tend to correlate with higher popularity.
 -
-Distribution of Spotify Track Popularity
+# Distribution of Spotify Track Popularity
 
 ![Distribution of Spotify Track Popularity](images/{7900E9A0-F1D7-4A3D-B9C1-751FC5A4A09B}.png)
 
@@ -64,7 +64,7 @@ Interpretation
 Key insight:
 Most songs on Spotify achieve moderate popularity scores (roughly between 20–60), while extremely high-popularity tracks are relatively rare. This indicates that viral or blockbuster hits represent only a small fraction of all released music, suggesting that success on streaming platforms is concentrated among a limited number of tracks while the majority perform at average levels.
 -
-Audio Feature Profile: Top 10% vs Bottom 10% Tracks
+# Audio Feature Profile: Top 10% vs Bottom 10% Tracks
 
 ![Audio Feature Profile: Top 10% vs Bottom 10% Tracks](images/{8C02D6B1-DF46-4D53-BF87-49B95CD04F31}.png)
 
