@@ -13,7 +13,7 @@ This project explores how Spotify audio features relate to track popularity.
 Spotify track dataset (~80k tracks after cleaning)
 
 ## :bar_chart: Visualization and Interpretation
-# Average Popularity Across Audio Feature Levels
+# :bar_chart: Average Popularity Across Audio Feature Levels
 
 ![Average Popularity Across Audio Feature Levels](images/{3B01A2D7-C3BA-4CD4-A02E-897212C08850}.png)
 
@@ -43,7 +43,7 @@ Interpretation
 Key insight:
 Moderate levels of energy and emotional balance tend to correlate with higher popularity.
 -
-# Distribution of Spotify Track Popularity
+# :arrow_double_up: Distribution of Spotify Track Popularity
 
 ![Distribution of Spotify Track Popularity](images/{7900E9A0-F1D7-4A3D-B9C1-751FC5A4A09B}.png)
 
@@ -62,7 +62,7 @@ Interpretation
 Key insight:
 Most songs on Spotify achieve moderate popularity scores (roughly between 20–60), while extremely high-popularity tracks are relatively rare. This indicates that viral or blockbuster hits represent only a small fraction of all released music, suggesting that success on streaming platforms is concentrated among a limited number of tracks while the majority perform at average levels.
 -
-# Audio Feature Profile: Top 10% vs Bottom 10% Tracks
+# :keycap_ten: Audio Feature Profile: Top 10% vs Bottom 10% Tracks
 
 ![Audio Feature Profile: Top 10% vs Bottom 10% Tracks](images/{8C02D6B1-DF46-4D53-BF87-49B95CD04F31}.png)
 
@@ -103,7 +103,7 @@ Key differences observed:
 Key insight:
 Hit songs tend to be loud, energetic, and danceable, aligning with mainstream listening preferences.
 -
-# Top 10 Genres by Average Popularity
+# :keycap_ten: Top 10 Genres by Average Popularity
 
 ![Top 10 Genres by Average Popularity](images/{92A99EB1-FF9E-4552-BD84-6B2B67C5D535}.png)
 
@@ -143,7 +143,7 @@ Key insight:
 Modern streaming audiences strongly favor danceable and high-energy genres.
 -
 
-# Danceability: High vs Low Popularity Tracks
+# :dancer: Danceability: High vs Low Popularity Tracks
 
 ![Danceability: High vs Low Popularity Tracks](images/{10091C30-34F2-4538-8D29-7040E294E73D}.png)
 
@@ -163,7 +163,7 @@ Key insight:
 Danceability contributes to popularity but is not a decisive factor alone.
 -
 
-# Energy: High vs Low Popularity Tracks
+# :star: Energy: High vs Low Popularity Tracks
 
 ![Energy](images/{F03AD225-ECE9-48D8-88AB-1B29E72A75E2}.png)
 
@@ -178,7 +178,7 @@ Interpretation
 Key insight:
 Listeners appear to prefer energetic tracks, but extreme energy levels are not necessary for success.
 -
-# Acousticness: High vs Low Popularity Tracks
+# :notes: Acousticness: High vs Low Popularity Tracks
 
 ![Acousticness](images/{89FD089E-FA45-4C33-986F-48139AEC231C}.png)
 
@@ -193,7 +193,7 @@ Interpretation
 Key insight:
 Mainstream hits tend to rely more on produced, electronic, or studio-enhanced sounds rather than purely acoustic compositions.
 -
-# Speechiness: High vs Low Popularity Tracks
+# 🎤 Speechiness: High vs Low Popularity Tracks
 
 What this chart shows
 
@@ -208,7 +208,7 @@ Interpretation
 Key insight:
 Speech-heavy tracks (talking or spoken-word style) are not typical among popular songs.
 -
-# Feature Correlation Matrix
+# ❗Feature Correlation Matrix
 
 ![Feature Correlation Matrix](images/{166D80FF-7B54-4744-AEF3-EC8E27F9C680}.png)
 
@@ -229,7 +229,7 @@ Popularity shows very weak direct correlations with most features.
 Key insight:
 No single audio feature strongly predicts popularity — hit songs likely emerge from a combination of characteristics rather than one dominant factor.
 -
-# Popularity Across Energy × Danceability
+# :bangbang: Popularity Across Energy × Danceability
 
 ![Popularity Across Energy × Danceability](images/{0745DA54-60BE-47EB-8BFA-945A394868AF}.png)
 
@@ -248,7 +248,7 @@ Successful songs often balance danceability and energy rather than maximizing on
 -
 
 ## Machine Learning Model
-# Hit Song Prediction Model
+# :file_folder: Hit Song Prediction Model
 
 ![Machine Learning Model](images/{BD716FC6-EE3B-42CC-BA11-4E7AAF1141B8}.png)
 
