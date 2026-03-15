@@ -9,7 +9,7 @@ This project explores how Spotify audio features relate to track popularity.
 - Identify nonlinear patterns in feature behavior
 - Compare top performing tracks vs low performing tracks
 
-## Dataset
+## :chart_with_upwards_trend: Dataset
 Spotify track dataset (~80k tracks after cleaning)
 
 ## Visualization and Interpretation
