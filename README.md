@@ -105,7 +105,7 @@ Hit songs tend to be loud, energetic, and danceable, aligning with mainstream li
 -
 # Top 10 Genres by Average Popularity
 
-What this chart shows
+![Top 10 Genres by Average Popularity](images/{92A99EB1-FF9E-4552-BD84-6B2B67C5D535}.png)
 
 This bar chart ranks genres based on their average popularity score.
 
@@ -145,7 +145,7 @@ Modern streaming audiences strongly favor danceable and high-energy genres.
 
 # Danceability: High vs Low Popularity Tracks
 
-What this chart shows
+![Danceability: High vs Low Popularity Tracks](images/{10091C30-34F2-4538-8D29-7040E294E73D}.png)
 
 This box plot compares the danceability scores of:
 
