@@ -12,6 +12,24 @@ This project explores how Spotify audio features relate to track popularity.
 ## Dataset
 Spotify track dataset (~80k tracks after cleaning)
 
+## Visualization and Interpretation
+
+1. Distribution of Spotify Track Popularity
+
+What this chart shows
+
+This histogram visualizes the overall distribution of popularity scores across all tracks in the dataset.
+
+Interpretation
+
+Most songs fall between 20–60 popularity score.
+
+Very few songs reach extremely high popularity (>80).
+
+The distribution is right-skewed, meaning blockbuster hits are rare.
+
+This confirms that most tracks perform moderately rather than becoming major hits.
+
 ## Analysis Performed
 - Data cleaning
 - Feature distribution analysis
