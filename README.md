@@ -15,9 +15,9 @@ Spotify track dataset (~80k tracks after cleaning)
 ## Visualization and Interpretation
 
 Distribution of Spotify Track Popularity
--
+
 What this chart shows
--
+
 This histogram visualizes the overall distribution of popularity scores across all tracks in the dataset.
 
 Interpretation
