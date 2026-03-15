@@ -237,11 +237,11 @@ This heatmap visualizes how combinations of energy and danceability levels influ
 
 Interpretation
 
-Highest popularity appears in moderately high energy and danceability combinations.
+- Highest popularity appears in moderately high energy and danceability combinations.
 
-Extremely low energy tracks tend to perform poorly.
+- Extremely low energy tracks tend to perform poorly.
 
-Balanced combinations produce the best results.
+- Balanced combinations produce the best results.
 
 Key insight:
 Successful songs often balance danceability and energy rather than maximizing one feature alone.
@@ -256,9 +256,9 @@ A classification model was built to predict whether a track is a hit or not base
 
 Model Performance
 
-Accuracy: ~95%
+- Accuracy: ~95%
 
-ROC-AUC Score: ~0.69
+- ROC-AUC Score: ~0.69
 
 However, the confusion matrix shows the model predicts non-hit songs much better than hit songs, indicating class imbalance.
 
