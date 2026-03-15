@@ -61,6 +61,9 @@ Interpretation
 
 - This confirms that most tracks perform moderately rather than becoming major hits.
 
+Key insight:
+Most songs on Spotify achieve moderate popularity scores (roughly between 20–60), while extremely high-popularity tracks are relatively rare. This indicates that viral or blockbuster hits represent only a small fraction of all released music, suggesting that success on streaming platforms is concentrated among a limited number of tracks while the majority perform at average levels.
+
 ## Analysis Performed
 - Data cleaning
 - Feature distribution analysis
