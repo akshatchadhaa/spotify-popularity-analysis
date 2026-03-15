@@ -64,7 +64,47 @@ Interpretation
 Key insight:
 Most songs on Spotify achieve moderate popularity scores (roughly between 20–60), while extremely high-popularity tracks are relatively rare. This indicates that viral or blockbuster hits represent only a small fraction of all released music, suggesting that success on streaming platforms is concentrated among a limited number of tracks while the majority perform at average levels.
 -
+Audio Feature Profile: Top 10% vs Bottom 10% Tracks
 
+![Audio Feature Profile: Top 10% vs Bottom 10% Tracks](images/{8C02D6B1-DF46-4D53-BF87-49B95CD04F31}.png)
+
+This comparison highlights the average audio feature values for:
+
+* Top 10% most popular tracks
+
+* Bottom 10% least popular tracks
+
+Features compared:
+
+- Danceability
+
+- Energy
+
+- Valence
+
+- Acousticness
+
+- Loudness
+
+- Speechiness
+
+- Instrumentalness
+
+Interpretation
+
+Key differences observed:
+
+- Top tracks are generally louder
+
+- Higher danceability is associated with popularity
+
+- Less acoustic and less instrumental songs perform better
+
+- Speechiness shows minimal impact
+
+Key insight:
+Hit songs tend to be loud, energetic, and danceable, aligning with mainstream listening preferences.
+-
 ## Analysis Performed
 - Data cleaning
 - Feature distribution analysis
