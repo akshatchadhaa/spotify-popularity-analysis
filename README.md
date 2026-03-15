@@ -149,9 +149,9 @@ What this chart shows
 
 This box plot compares the danceability scores of:
 
-Highly popular songs
+- Highly popular songs
 
-Less popular songs
+- Less popular songs
 
 Interpretation
 
