@@ -165,7 +165,7 @@ Danceability contributes to popularity but is not a decisive factor alone.
 
 # Energy: High vs Low Popularity Tracks
 
-What this chart shows
+![Energy](images/{F03AD225-ECE9-48D8-88AB-1B29E72A75E2}.png)
 
 This plot compares energy levels between high-popularity and low-popularity tracks.
 
@@ -180,7 +180,7 @@ Listeners appear to prefer energetic tracks, but extreme energy levels are not n
 -
 # Acousticness: High vs Low Popularity Tracks
 
-What this chart shows
+![Acousticness](images/{89FD089E-FA45-4C33-986F-48139AEC231C}.png)
 
 This box plot compares acousticness scores between high-popularity and low-popularity tracks.
 
@@ -210,17 +210,17 @@ Speech-heavy tracks (talking or spoken-word style) are not typical among popular
 -
 # Feature Correlation Matrix
 
-What this chart shows
+![Feature Correlation Matrix](images/{166D80FF-7B54-4744-AEF3-EC8E27F9C680}.png)
 
 This heatmap displays correlations between audio features and popularity.
 
 Key relationships
 
-Energy and Loudness show strong positive correlation.
+- Energy and Loudness show strong positive correlation.
 
-Acousticness is negatively correlated with Energy and Loudness.
+- Acousticness is negatively correlated with Energy and Loudness.
 
-Danceability moderately correlates with Valence.
+- Danceability moderately correlates with Valence.
 
 Important finding
 
@@ -231,7 +231,7 @@ No single audio feature strongly predicts popularity — hit songs likely emerge
 -
 # Popularity Across Energy × Danceability
 
-What this chart shows
+![Popularity Across Energy × Danceability](images/{0745DA54-60BE-47EB-8BFA-945A394868AF}.png)
 
 This heatmap visualizes how combinations of energy and danceability levels influence track popularity.
 
@@ -249,6 +249,8 @@ Successful songs often balance danceability and energy rather than maximizing on
 
 ## Machine Learning Model
 # Hit Song Prediction Model
+
+![Machine Learning Model](images/{BD716FC6-EE3B-42CC-BA11-4E7AAF1141B8}.png)
 
 A classification model was built to predict whether a track is a hit or not based on audio features.
 
