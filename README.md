@@ -274,19 +274,19 @@ Spotify Hit Song Prediction – Model Evaluation & Insights
 
 This machine learning project was developed to predict whether a Spotify track would be classified as a Hit or Not Hit using audio-based features such as energy, loudness, danceability, acousticness, tempo, speechiness, valence, and duration.
 
-Model Accuracy
+- Model Accuracy
 
 The model achieved an overall accuracy of 95.76%, which indicates strong general predictive performance across the dataset. This means the model correctly classified the majority of songs into their respective categories.
 
 However, because the dataset contained significantly more Not Hit songs than Hit songs, accuracy alone does not fully reflect the model’s ability to detect successful tracks.
 
-Confusion Matrix Analysis
+- Confusion Matrix Analysis
 
 The confusion matrix showed that the model performed exceptionally well in identifying Not Hit songs, correctly predicting most of them with very few false positives.
 
 At the same time, the model had difficulty identifying actual Hit songs, misclassifying many of them as Not Hits. This suggests a class imbalance issue, where the model became more biased toward the majority class.
 
-Business Interpretation:
+- Business Interpretation:
 Strong at filtering songs unlikely to succeed.
 Weaker at discovering breakout or viral songs early.
 Classification Report
@@ -299,7 +299,7 @@ Many hit songs were missed
 
 This indicates that while the model is accurate overall, it is conservative when predicting hits.
 
-ROC-AUC Score
+- ROC-AUC Score
 
 The model achieved an ROC-AUC Score of approximately 0.63.
 
@@ -311,7 +311,7 @@ ROC-AUC measures how well the model separates the two classes across different p
 
 A score of 0.63 suggests that the model has some ability to distinguish hits from non-hits, but there is room for improvement in classification quality.
 
-Feature Importance
+- Feature Importance
 
 The most important features influencing predictions were:
 
@@ -328,7 +328,7 @@ The most important features influencing predictions were:
 
 This suggests that production style, sound intensity, structure, and listener engagement characteristics had the greatest impact on hit prediction.
 
-Clustering Insight
+- Clustering Insight
 
 Clustering techniques were also used to group songs with similar audio characteristics. This helped identify natural song segments within the dataset, such as:
 
