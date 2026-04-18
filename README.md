@@ -12,6 +12,26 @@ This project analyzes Spotify audio features and applies machine learning techni
 ## :chart_with_upwards_trend: Dataset
 Spotify track dataset (~80k tracks after cleaning)
 
+Data Cleaning & Transformation
+
+Before performing any visualization or model building, the dataset was preprocessed to improve data quality and ensure reliable results.
+
+1. Handling Missing Values
+
+Missing or incomplete values were identified and removed or appropriately handled to avoid inaccurate analysis and model bias.
+
+2. Removing Duplicates
+
+Duplicate song records were checked and removed to maintain dataset consistency and prevent repeated observations from affecting predictions.
+
+3. Data Type Corrections
+
+Columns were converted into proper formats where required (numerical, categorical, date/time) to ensure compatibility with analysis tools.
+
+4. Feature Selection
+
+Only relevant columns such as audio features and popularity indicators were selected for analysis, while unnecessary identifiers or redundant fields were excluded.
+
 ## :bar_chart: Visualization and Interpretation
 # :bar_chart: Average Popularity Across Audio Feature Levels
 
@@ -250,6 +270,75 @@ Successful songs often balance danceability and energy rather than maximizing on
 ## Machine Learning Model
 # :file_folder: Hit Song Prediction Model
 
+Spotify Hit Song Prediction – Model Evaluation & Insights
+
+This machine learning project was developed to predict whether a Spotify track would be classified as a Hit or Not Hit using audio-based features such as energy, loudness, danceability, acousticness, tempo, speechiness, valence, and duration.
+
+Model Accuracy
+
+The model achieved an overall accuracy of 95.76%, which indicates strong general predictive performance across the dataset. This means the model correctly classified the majority of songs into their respective categories.
+
+However, because the dataset contained significantly more Not Hit songs than Hit songs, accuracy alone does not fully reflect the model’s ability to detect successful tracks.
+
+Confusion Matrix Analysis
+
+The confusion matrix showed that the model performed exceptionally well in identifying Not Hit songs, correctly predicting most of them with very few false positives.
+
+At the same time, the model had difficulty identifying actual Hit songs, misclassifying many of them as Not Hits. This suggests a class imbalance issue, where the model became more biased toward the majority class.
+
+Business Interpretation:
+Strong at filtering songs unlikely to succeed.
+Weaker at discovering breakout or viral songs early.
+Classification Report
+Class 0 – Not Hit Songs
+High precision and recall
+Reliable and consistent predictions
+Class 1 – Hit Songs
+Lower precision and recall
+Many hit songs were missed
+
+This indicates that while the model is accurate overall, it is conservative when predicting hits.
+
+ROC-AUC Score
+
+The model achieved an ROC-AUC Score of approximately 0.63.
+
+ROC-AUC measures how well the model separates the two classes across different probability thresholds:
+
+0.50 = Random guessing
+0.60 – 0.70 = Moderate discrimination
+0.70+ = Strong model performance
+
+A score of 0.63 suggests that the model has some ability to distinguish hits from non-hits, but there is room for improvement in classification quality.
+
+Feature Importance
+
+The most important features influencing predictions were:
+
+-Instrumentalness
+-Acousticness
+-Energy
+-Loudness
+-Duration
+-Danceability
+-Liveness
+-Valence
+-Speechiness
+-Tempo
+
+This suggests that production style, sound intensity, structure, and listener engagement characteristics had the greatest impact on hit prediction.
+
+Clustering Insight
+
+Clustering techniques were also used to group songs with similar audio characteristics. This helped identify natural song segments within the dataset, such as:
+
+High-energy commercial tracks
+Acoustic / mellow songs
+Dance-focused tracks
+Speech-heavy or experimental tracks
+
+These clusters provide useful insight into how songs are distributed stylistically and can support recommendation systems, audience targeting, and trend analysis.
+
 ![Machine Learning Model](images/{BD716FC6-EE3B-42CC-BA11-4E7AAF1141B8}.png)
 
 A classification model was built to predict whether a track is a hit or not based on audio features.
@@ -261,28 +350,6 @@ Model Performance
 - ROC-AUC Score: ~0.69
 
 However, the confusion matrix shows the model predicts non-hit songs much better than hit songs, indicating class imbalance.
-
-# Feature Importance for Predicting Hits
-
-Most influential features in predicting hit songs:
-
-- Instrumentalness
-
-- Acousticness
-
-- Energy
-
-- Loudness
-
-- Duration
-
-- Danceability
-
-- Valence
-
-- Speechiness
-
-- Tempo
 
 Interpretation
 
