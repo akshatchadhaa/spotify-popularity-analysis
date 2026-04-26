@@ -1,5 +1,8 @@
 # :musical_note: spotify-popularity-analysis
 
+![Heatmap](images/{166D80FF-7B54-4744-AEF3-EC8E27F9C680}.png)
+![Genre Popularity](images/{92A99EB1-FF9E-4552-BD84-6B2B67C5D535}.png)
+
 Exploratory Data Analysis and Machine Learning on Spotify tracks to understand how audio features influence song popularity.
 
 This project analyzes Spotify audio features and applies machine learning techniques to explore patterns and predict track popularity.
@@ -9,8 +12,15 @@ This project analyzes Spotify audio features and applies machine learning techni
 - Identify nonlinear patterns in feature behavior
 - Compare top performing tracks vs low performing tracks
 
+## Business Applications
+
+- Playlist recommendation optimization
+- Music label audience targeting
+- Track launch strategy insights
+- Genre demand trend monitoring
+
 ## :chart_with_upwards_trend: Dataset
-Spotify track dataset (~80k tracks after cleaning)
+End-to-end analytics project using 114,000 Spotify tracks to uncover drivers of music popularity through EDA, hypothesis testing, and machine learning.
 
 Data Cleaning & Transformation
 
@@ -31,6 +41,15 @@ Columns were converted into proper formats where required (numerical, categorica
 4. Feature Selection
 
 Only relevant columns such as audio features and popularity indicators were selected for analysis, while unnecessary identifiers or redundant fields were excluded.
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Hypothesis Testing
+- Feature Engineering
+- Classification Modeling
+- Data Storytelling
 
 ## :bar_chart: Visualization and Interpretation
 # :bar_chart: Average Popularity Across Audio Feature Levels
