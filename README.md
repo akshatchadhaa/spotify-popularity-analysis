@@ -9,7 +9,7 @@ This project analyzes Spotify audio features and applies machine learning techni
 - Identify nonlinear patterns in feature behavior
 - Compare top performing tracks vs low performing tracks
 
-## Business Applications
+## :heavy_exclamation_mark: Business Applications
 
 - Playlist recommendation optimization
 - Music label audience targeting
@@ -39,7 +39,7 @@ Columns were converted into proper formats where required (numerical, categorica
 
 Only relevant columns such as audio features and popularity indicators were selected for analysis, while unnecessary identifiers or redundant fields were excluded.
 
-## Skills Demonstrated
+## :star: Skills Demonstrated
 
 - Data Cleaning
 - Exploratory Data Analysis
